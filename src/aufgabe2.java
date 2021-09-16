@@ -13,8 +13,6 @@ public class aufgabe2 {
                         "%10.0f       %10.0f        %.5f \n",
                         i, k, rel);
             }
-
         }
-        //test
     }
 }
