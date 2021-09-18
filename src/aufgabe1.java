@@ -6,5 +6,4 @@ public class aufgabe1 {
         }
         System.out.print(e);
     }
-    //test
 }
