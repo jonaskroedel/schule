@@ -1,3 +1,5 @@
+package ü1;
+
 public class aufgabe1 {
     public static void main(String[] args) {
         double e = 2;

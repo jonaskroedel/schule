@@ -1,7 +1,9 @@
+package ü1;
+
 public class aufgabe2 {
     public static void main(String[] args) {
         double k = 0;
-        for (double i = 1; i <= 1000; i++) {
+        for (double i = 1; i <= 10000; i++) {
             double rel = 0;
             int r = (int) (Math.random() * 2);
             if (r == 0) {

@@ -1,6 +1,8 @@
+package ü1;
+
 public class aufgabe3 {
     public static void main(String[] args) {
-        wurf(50000, 10);
+        wurf(100, 1);
     }
     public static void wurf( int wh, int schritt){
         double k = 0;
