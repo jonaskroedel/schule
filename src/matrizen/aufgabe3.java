@@ -5,10 +5,13 @@ public class aufgabe3 {
         int[][] mat = new int[10][10];
         ausgabe(mat);
     }
+
     private static void ausgabe(int[][] mat) {
-        for (int i = 1; i < mat.length; i++) {
-            for (int j = 1; i < mat[0].length; j++) {
-                System.out.print(mat[i][j]);
+        for (int i = 0; i < mat.length; i++) {
+
+            for (int j = 0; j < mat[i].length; j++) {
+                mat[i][j] = i*10+j;
+                System.out.printf("%02d ", mat[i][j]);
             }
             System.out.println();
         }
