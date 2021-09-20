@@ -1,4 +1,4 @@
-package ü1;
+package wiederholung1;
 
 public class aufgabe4 {
     public static void main(String[] args) {

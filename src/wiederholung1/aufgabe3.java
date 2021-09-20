@@ -1,10 +1,11 @@
-package ü1;
+package wiederholung1;
 
 public class aufgabe3 {
     public static void main(String[] args) {
         wurf(100, 1);
     }
-    public static void wurf( int wh, int schritt){
+
+    public static void wurf(int wh, int schritt) {
         double k = 0;
         for (double i = 1; i <= wh; i++) {
             double rel = 0;
