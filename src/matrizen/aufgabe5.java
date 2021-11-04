@@ -1,11 +1,21 @@
 package matrizen;
 
-public class aufgabe4 {
+public class aufgabe5 {
     public static void main(String[] args) {
         int obergrenze = 10;
-        int groesse = (int) (Math.random() * obergrenze+1);
+        int groesse = (int) (Math.random() * obergrenze + 1);
 
         int[][] mat = zzMatrix(groesse, obergrenze);
+        int i;
+        int n = 0;
+        int j = 0;
+        for (i = 0; i < mat.length; i++)
+            for (j = 0; j < mat[i].length; j++) {
+                if (mat[i][j] == 0) {
+                    n++;
+                }
+            }
+        System.out.print("Anzahl Nullen: " + n);
     }
 
 
@@ -19,6 +29,7 @@ public class aufgabe4 {
 
                 int g = (int) (Math.random() * (groesse+1));
                 System.out.printf("%02d ", g);
+                mat[i][j] = g;
             }
             System.out.println();
         }
