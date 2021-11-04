@@ -28,12 +28,9 @@ public class aufgabe5 {
             for (int j = 0; j < mat[i].length; j++) {
 
                 int g = (int) (Math.random() * (groesse+1));
-                System.out.printf("%02d ", g);
                 mat[i][j] = g;
             }
-            System.out.println();
         }
-        System.out.println(groesse);
         return mat;
     }
 }
